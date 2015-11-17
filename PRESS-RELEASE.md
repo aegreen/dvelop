@@ -17,28 +17,31 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+  > Dvelop.io
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  > Online communities for developers by developers
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > a platform that provides a way for developers to reach out and connect within their own communities.
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > it can be difficult for software engineers to build local communities and support each other. new engineers may have a hard time finding the existing tech community in their area or they may need help finding mentors to facilitate their growth
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > lowers the barriers to entry for new and experienced developers to meet.
+  > clarifying the local development community by taking it online.
+  > 
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > Develop.io provides a space for software engineers of all levels to meet, check out each other's projects, share knowledge, and learn from each other and foster the local tech community
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > Develop.io is easy! Sign in with GitHub and fill out your user profile to begin getting to know programmers near you
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > Develop.io helped me discover my mentor and mentee.
+  > Develop.io got me out of the house and into a bar hanging out with some cool developers!
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > go to Develop.io, sign up with your github and discover new developers in your community.
