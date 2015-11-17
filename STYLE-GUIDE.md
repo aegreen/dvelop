@@ -194,7 +194,22 @@ When writing any block of code that is logically subordinate to the line immedia
 * Be aware that comments come at some cost. They make a file longer and can drift out of sync with the code they annotate.
 * Comment on what code is attempting to do, not how it will achieve it.
 * A good comment is often less effective than a good variable name.
+  
+  ```javascript
+  // good:
+  /**
+   * @name logError
+   * @desc Logs errors
+   * @param {String} msg Message to log
+   * @returns {String}
+   */
+  function logError(msg) {
+      var loggedMsg = 'Error: ' + msg;
+      $log.error(loggedMsg);
+      return loggedMsg;
+  };
 
+  ```
 
 ### Padding & additional whitespace
 
