@@ -1,9 +1,9 @@
-// var express = require('express');
-// var path = require('path');
-// var favicon = require('serve-favicon');
-// var logger = require('morgan');
-// var cookieParser = require('cookie-parser');
-// var bodyParser = require('body-parser');
+var express = require('express');
+var path = require('path');
+var favicon = require('serve-favicon');
+var logger = require('morgan');
+var cookieParser = require('cookie-parser');
+var bodyParser = require('body-parser');
 
 // var routes = require('./routes/index');
 // // var users = require('./routes/users');
@@ -74,6 +74,10 @@ app = express();
 app.use(express.static('public'));
 // app.use(express.static(path.join(__dirname, 'public')));
 app.set('port', process.env.PORT || 5000);
+app.use(logger('dev'));                                         // log every request to the console
+app.use(bodyParser.urlencoded({'extended':'true'}));            // parse application/x-www-form-urlencoded
+app.use(bodyParser.json());                                     // parse application/json
 app.listen(app.get('port'), function () {
     console.log('Express server listening on port ' + app.get('port'));
 });
+
