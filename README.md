@@ -1,6 +1,6 @@
-# Space Kitten
+# Dvelop.io
 
-> Pithy project description
+> A social network for web developers to find mentors and connect with each other locally
 
 ## Team
 
